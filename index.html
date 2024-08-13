@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="board.css">
+</head>
+<body>
+
+    <!-- voting board -->
+    <div class="voting-section background">
+        <div class="container">
+            <div class="header">
+                <p>My Available Votes</p>
+                <h1 id="totalVote">30,000</h1>
+                <div class="progress-bar">
+                    <div class="filled"></div>
+                </div>
+            </div>
+
+            <div class="vote-grid">
+                <div class="vote-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/ed9.jpeg?v=1707672196483" alt="Shatoria">
+                    <p>Shatoria</p>
+                    <div class="vote-controls">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                    <p class="excess-vote" style="display: none;">*No Votes Left</p>
+                </div>
+
+                <div class="vote-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/w3.png?v=1706486199595" alt="Steeze">
+                    <p>Steeze</p>
+                    <div class="vote-controls">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                    <p class="excess-vote" style="display: none;">*No Votes Left</p>
+                </div>
+
+                <div class="vote-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/q2.png?v=1706620553666" alt="Chekas">
+                    <p>NdiNne</p>
+                    <div class="vote-controls">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                    <p class="excess-vote" style="display: none;">*No Votes Left</p>
+                </div>
+
+                <div class="vote-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/w1.png?v=1706485711580" alt="Radicals">
+                    <p>Radicals</p>
+                    <div class="vote-controls">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                    <p class="excess-vote" style="display: none;">*No Votes Left</p>
+                </div>
+
+                <div class="vote-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/ed7.jpeg?v=1707670489777" alt="WanniXHandi">
+                    <p>Wanni X Handi</p>
+                    <div class="vote-controls">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                    <p class="excess-vote" style="display: none;">*No Votes Left</p>
+                </div>
+
+                <div class="vote-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/q4.png?v=1706620558798" alt="WanniXHandi">
+                    <p>Tami</p>
+                    <div class="vote-controls">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                    <p class="excess-vote" style="display: none;">*No Votes Left</p>
+                </div>
+                
+            </div>
+
+            
+            
+            <button type="button" class="finishVotes-btn">Submit Votes</button>
+            <button type="button" class="leaderboard-btn">View Leaderboard
+                <!-- <a href="">View Leaderboard</a> -->
+            </button>
+        </div>
+    </div>
+
+    <!-- leaderboard -->
+
+    <div class="leaderboard-section background" style="display: none;">
+        <div class="container">
+            <h2>Leaderboard</h2>
+            <div class="leaderboard-grid">
+                <div class="leaderboard-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/ed9.jpeg?v=1707672196483" alt="Shatoria">
+                    <p id="name">Shatoria</p>
+                    <span class="rank">0</span>
+                </div>
+                <div class="leaderboard-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/w3.png?v=1706486199595" alt="Steeze">
+                    <p id="name">Steeze</p>
+                    <span class="rank">0</span>
+                </div>
+                <div class="leaderboard-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/q2.png?v=1706620553666" alt="Chekas">
+                    <p id="name">NdiNne</p>
+                    <span class="rank">0</span>
+                </div>
+                <div class="leaderboard-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/w1.png?v=1706485711580" alt="Radicals">
+                    <p id="name">Radicals</p>
+                    <span class="rank">0</span>
+                </div>
+                <div class="leaderboard-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/ed7.jpeg?v=1707670489777" alt="WanniXHandi">
+                    <p id="name">Wanni X Handi</p>
+                    <span class="rank">0</span>
+                </div>
+                <div class="leaderboard-card">
+                    <img src="https://cdn.glitch.global/56bfc83d-f5cc-4d37-8226-f6da6b519ba2/q4.png?v=1706620558798" alt="WanniXHandi">
+                    <p id="name">Tami</p>
+                    <span class="rank">0</span>
+                </div>
+            </div>
+            <p class="evicted-text"> <span class="housemate">housemate</span> was evicted</p>
+            <button class="back-to-vote-btn"><a href="/">Back To Vote</a></button>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+   
+
+</body>
+</html>
