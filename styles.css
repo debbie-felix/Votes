@@ -1,0 +1,152 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #a78eb4;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* ffbb00 */
+.header {
+    /* background-color: #ffbb00da; */
+    background-color: #c95a44;
+
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.header h1 {
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+.progress-bar {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    height: 5px;
+    margin-top: 10px;
+}
+
+.progress-bar .filled {
+    width: 70%;
+    height: 100%;
+    background-color: #00aa7a;
+    border-radius: 5px;
+}
+
+.vote-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.vote-card {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vote-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.vote-card p {
+    margin: 0;
+    font-weight: bold;
+    /* color: #ffffff; */
+}
+
+.vote-card span {
+    margin: 0;
+    font-weight: bold;
+    /* color: #ffffff; */
+}
+
+.vote-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.vote-controls button {
+    background-color: #3F3644;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.vote-controls span {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.excess-vote {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+/* #FF7153 */
+.leaderboard-btn {
+    /* background-color: #502e2c; */
+    background-color: #ffa353;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.finishVotes-btn {
+    background-color: #c95a44;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
