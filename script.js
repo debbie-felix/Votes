@@ -74,6 +74,7 @@ voteCards.forEach((card, index) => {
 
 submitVotesBtn.addEventListener('click', function () {
     updateLeaderboard();
+     alert('Thanks for Voting 😎')
 });
 
 viewLeaderboardBtn.addEventListener('click', function () {
