@@ -5,7 +5,7 @@ body, html {
 }
 
 .background {
-    background-image: url('https://www.freepik.com/free-vector/geometric-shapes-memphis-background_8229927.htm#from_view=detail_alsolike');
+    background-image: url('/image.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
